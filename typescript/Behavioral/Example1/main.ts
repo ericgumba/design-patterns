@@ -7,9 +7,9 @@ import { WebDeveloper } from "./WebDeveloper"
     let zulip: Project = new Project()
 
 
-    while(zulip.mobilePercentDone < 100 && zulip.webPercentDone < 100){
+    while(zulip.mobilePercentDone < 100 || zulip.webPercentDone < 100){
 
-        if (zulip.mobilePercentDone > zulip.webPercentDone){
+        if (zulip.mobilePercentDone < zulip.webPercentDone){
             zulip.setDeveloper( new MobileDeveloper() )
             zulip.complete()
         } else{
