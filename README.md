@@ -13,14 +13,14 @@ Design Patern Repository
 ```
 So for example if one is interested in contributing or reading an example of the strategy design pattern in Typescript, they would find it under,
 
-
+```
 Typescript
     Behavioral 
         Strategy
             Example1
             Example2
             Example3
-
+```
 
 With the example directories containing a diagram of the system and source code that fits strategy design pattern. 
 
