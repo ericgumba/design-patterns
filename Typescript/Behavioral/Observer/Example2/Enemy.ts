@@ -1,8 +1,7 @@
-import {Subject} from './Subject'
-import {Observer}from './Observer'
+import {Subject} from './Subject' 
 import { Hero } from './Hero'
-export class Enemy implements Subject {
 
+export class Enemy implements Subject {
 
     isAlive = true
     heroes = []
