@@ -8,6 +8,7 @@ import { MaleFashionModelDecorator } from "./MaleFashionModelDecorator";
 
 
     fashionModel.putOnClothes()
+    fashionModel.setClothingColor("red")
 
     
     let maleFashionModel: MaleFashionModelDecorator = new MaleFashionModelDecorator(fashionModel)
@@ -15,6 +16,9 @@ import { MaleFashionModelDecorator } from "./MaleFashionModelDecorator";
 
 
     maleFashionModel.putOnClothes()
+
+
+    fashionModel.setClothingColor("blue")
 
     femaleFashionModel.putOnClothes()
 })()

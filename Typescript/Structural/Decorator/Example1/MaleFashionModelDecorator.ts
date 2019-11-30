@@ -10,6 +10,6 @@ export  class MaleFashionModelDecorator extends FashionModelDecorator {
         this.putOnMaleClothes()
     }
     private putOnMaleClothes(){
-        console.log("and wearing fancy shirt")
+        console.log("and wearing fancy " + this.fashionModel.getClothingColor() + " shirt")
     }
 }
